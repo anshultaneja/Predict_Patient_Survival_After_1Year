@@ -38,3 +38,6 @@ while the other column B, D, E, F, Z will have entries 0, 0, 0, 0, 0 respectivel
 The column Number_of_prev_cond will have entry as 2 i.e. 1 + 0 + 1 + 0 + 0 + 0 + 0 + 0 = 2 in this case.).
 
 Feel free to google 'Diagnose' and 'Body Mass Index' if you don't know about these terms.
+
+Load the new unseen test data (name it as 'test_new'). You can load the data using the below command:
+test_new = pd.read_csv('https://raw.githubusercontent.com/dphi-official/Datasets/master/pharma_data/Testing_set_advc.csv')
